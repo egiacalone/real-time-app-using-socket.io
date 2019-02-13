@@ -26,6 +26,10 @@ SET time_zone = "+00:00";
 -- Table structure for table `status`
 --
 
+CREATE DATABASE socket;
+
+USE socket;
+
 CREATE TABLE IF NOT EXISTS `status` (
   `status_id` int(30) NOT NULL AUTO_INCREMENT,
   `s_text` text NOT NULL,
